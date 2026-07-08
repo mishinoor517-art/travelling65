@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #F8FAFC;
+  color: #0F172A;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #2563EB, #06B6D4);
+  border-radius: 999px;
+}
+
+.dark body {
+  background: #0B1220;
+  color: #F1F5F9;
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.dark .glass {
+  background: rgba(15, 23, 42, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-dark {
+  background: rgba(15, 23, 42, 0.35);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Custom cursor (desktop only) */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  border: 1.5px solid rgba(37, 99, 235, 0.6);
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease, background 0.2s ease, border-color .2s ease;
+  mix-blend-mode: difference;
+}
+.custom-cursor.grow {
+  width: 56px;
+  height: 56px;
+  background: rgba(6, 182, 212, 0.25);
+}
+
+@media (hover: none) {
+  .custom-cursor { display: none; }
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #2563EB, #06B6D4 60%, #F59E0B 120%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.btn-gradient {
+  background-size: 200% auto;
+  background-image: linear-gradient(90deg, #2563EB 0%, #06B6D4 50%, #2563EB 100%);
+  transition: background-position 0.6s ease, transform 0.3s ease, box-shadow .3s ease;
+}
+.btn-gradient:hover {
+  background-position: right center;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -8px rgba(37, 99, 235, 0.55);
+}
+
+.section-eyebrow {
+  letter-spacing: 0.22em;
+}
+
+@keyframes loaderSweep {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+.loader-sweep {
+  animation: loaderSweep 1.1s ease-in-out infinite;
+}
