@@ -3,12 +3,7 @@ import CustomCursor from "@/components/CustomCursor";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Destinations from "@/components/Destinations";
-<<<<<<< HEAD
 import AboutUs from "@/components/AboutUs";
-=======
-import Cities from "@/components/Cities";
-import Packages from "@/components/Packages";
->>>>>>> fe46921e5febfe746a465ceebfe5c2b8874ccec9
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Experiences from "@/components/Experiences";
 import Testimonials from "@/components/Testimonials";
@@ -25,15 +20,11 @@ export default function Home() {
       <LoadingScreen />
       <CustomCursor />
       <Navbar />
+
       <main>
         <Hero />
         <Destinations />
-<<<<<<< HEAD
         <AboutUs />
-=======
-        <Cities />
-        <Packages />
->>>>>>> fe46921e5febfe746a465ceebfe5c2b8874ccec9
         <WhyChooseUs />
         <Experiences />
         <Testimonials />
@@ -42,6 +33,7 @@ export default function Home() {
         <FAQ />
         <Contact />
       </main>
+
       <Footer />
       <BackToTop />
     </>
