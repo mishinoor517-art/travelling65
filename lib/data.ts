@@ -64,8 +64,6 @@ export const destinations = [
   },
 ];
 
-<<<<<<< HEAD
-=======
 export const cities = [
   {
     name: "New York",
@@ -160,7 +158,7 @@ export const packages = [
   },
 ];
 
->>>>>>> fe46921e5febfe746a465ceebfe5c2b8874ccec9
+
 export const experiences = [
   { name: "Hot Air Balloon", img: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?q=80&w=900&auto=format&fit=crop" },
   { name: "Mountain Hiking", img: "https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=900&auto=format&fit=crop" },
