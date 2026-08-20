@@ -1,6 +1,10 @@
 "use client";
 
 import Image from "next/image";
+<<<<<<< HEAD
+=======
+import { Compass } from "lucide-react";
+>>>>>>> fe46921e5febfe746a465ceebfe5c2b8874ccec9
 import { gallery } from "@/lib/data";
 
 export default function Footer() {
@@ -10,6 +14,7 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10 mb-14">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
+<<<<<<< HEAD
               <span className="relative h-11 w-11 rounded-xl overflow-hidden bg-white p-1 shrink-0">
                 <Image
                   src="/images/logo.png"
@@ -19,6 +24,12 @@ export default function Footer() {
                   className="object-contain"
                 />
               </span>
+=======
+              <span className="grid place-items-center w-9 h-9 rounded-full bg-gradient-to-br from-primary-600 to-secondary-600">
+                <Compass size={18} />
+              </span>
+              <span className="font-display italic text-xl">Wayfarer</span>
+>>>>>>> fe46921e5febfe746a465ceebfe5c2b8874ccec9
             </div>
             <p className="text-white/60 text-sm mb-6 max-w-xs">
               Twenty years of planning journeys people still talk about.
@@ -38,6 +49,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4 text-sm tracking-wide">Quick Links</h4>
             <ul className="space-y-2.5 text-sm text-white/60">
+<<<<<<< HEAD
               {[
                 { label: "Home", href: "#home" },
                 { label: "About Us", href: "#about" },
@@ -47,6 +59,10 @@ export default function Footer() {
                 <li key={l.label}>
                   <a href={l.href} className="hover:text-secondary-400 transition-colors">{l.label}</a>
                 </li>
+=======
+              {["Home", "About Us", "Destinations", "Packages", "Contact"].map((l) => (
+                <li key={l}><a href="#" className="hover:text-secondary-400 transition-colors">{l}</a></li>
+>>>>>>> fe46921e5febfe746a465ceebfe5c2b8874ccec9
               ))}
             </ul>
           </div>

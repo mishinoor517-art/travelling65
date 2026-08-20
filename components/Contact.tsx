@@ -62,6 +62,7 @@ export default function Contact() {
           </Reveal>
 
           <Reveal delay={0.15} className="lg:col-span-2 flex flex-col gap-5">
+<<<<<<< HEAD
     <div className="rounded-3xl overflow-hidden h-48 relative">
   <iframe
     title="Office location map"
@@ -71,10 +72,21 @@ export default function Contact() {
     allowFullScreen
   />
 </div>
+=======
+            <div className="rounded-3xl overflow-hidden h-48 relative">
+              <iframe
+                title="Office location map"
+                className="w-full h-full border-0 grayscale contrast-125"
+                loading="lazy"
+                src="https://www.google.com/maps?q=Lahore,Pakistan&output=embed"
+              />
+            </div>
+>>>>>>> fe46921e5febfe746a465ceebfe5c2b8874ccec9
 
             <div className="rounded-3xl bg-ink dark:bg-white/5 p-7 text-white space-y-5 flex-1">
               <div className="flex items-start gap-3">
                 <MapPin size={18} className="text-secondary-400 mt-0.5 shrink-0" />
+<<<<<<< HEAD
                 <p className="text-sm text-white/80">Mall of sargodha 4th foor office number 40, Sargodha, Pakistan</p>
               </div>
               <div className="flex items-center gap-3">
@@ -84,6 +96,17 @@ export default function Contact() {
               <div className="flex items-center gap-3">
                 <Phone size={18} className="text-secondary-400 shrink-0" />
                 <p className="text-sm text-white/80">+92 3013478117</p>
+=======
+                <p className="text-sm text-white/80">MM Alam Road, Gulberg III, Lahore, Pakistan</p>
+              </div>
+              <div className="flex items-center gap-3">
+                <Mail size={18} className="text-secondary-400 shrink-0" />
+                <p className="text-sm text-white/80">hello@wayfarertravel.com</p>
+              </div>
+              <div className="flex items-center gap-3">
+                <Phone size={18} className="text-secondary-400 shrink-0" />
+                <p className="text-sm text-white/80">+92 42 111 222 333</p>
+>>>>>>> fe46921e5febfe746a465ceebfe5c2b8874ccec9
               </div>
               <div className="flex items-center gap-3">
                 <Clock size={18} className="text-secondary-400 shrink-0" />

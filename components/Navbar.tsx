@@ -1,16 +1,28 @@
 "use client";
 
 import { useEffect, useState } from "react";
+<<<<<<< HEAD
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Search, Moon, Sun } from "lucide-react";
+=======
+import { motion, AnimatePresence } from "framer-motion";
+import { Compass, Menu, X, Search, Moon, Sun } from "lucide-react";
+>>>>>>> fe46921e5febfe746a465ceebfe5c2b8874ccec9
 
 const links = [
   { label: "Home", href: "#home" },
   { label: "Destinations", href: "#destinations" },
+<<<<<<< HEAD
   { label: "Tours", href: "#experiences" },
   { label: "Blog", href: "#blog" },
   { label: "About", href: "#about" },
+=======
+  { label: "Packages", href: "#packages" },
+  { label: "Tours", href: "#experiences" },
+  { label: "Blog", href: "#blog" },
+  { label: "About", href: "#why-us" },
+>>>>>>> fe46921e5febfe746a465ceebfe5c2b8874ccec9
   { label: "Contact", href: "#contact" },
 ];
 
@@ -45,6 +57,7 @@ export default function Navbar() {
       >
         <nav className="flex items-center justify-between px-5 md:px-7 py-3">
           <a href="#home" className="flex items-center gap-2 group" data-cursor-grow>
+<<<<<<< HEAD
             <span className="relative h-11 w-11 md:h-12 md:w-12 rounded-xl overflow-hidden bg-white shadow-md shadow-black/10 p-1 group-hover:scale-105 transition-transform duration-500 shrink-0">
               <Image
                 src="/images/logo.png"
@@ -54,6 +67,13 @@ export default function Navbar() {
                 className="object-contain"
                 priority
               />
+=======
+            <span className="grid place-items-center w-9 h-9 rounded-full bg-gradient-to-br from-primary-600 to-secondary-600 text-white group-hover:rotate-45 transition-transform duration-500">
+              <Compass size={18} />
+            </span>
+            <span className={`font-display italic text-xl ${scrolled ? "text-ink dark:text-white" : "text-white"}`}>
+              Wayfarer
+>>>>>>> fe46921e5febfe746a465ceebfe5c2b8874ccec9
             </span>
           </a>
 

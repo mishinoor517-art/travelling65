@@ -64,6 +64,103 @@ export const destinations = [
   },
 ];
 
+<<<<<<< HEAD
+=======
+export const cities = [
+  {
+    name: "New York",
+    blurb: "The city that never sleeps — skyline views and Broadway lights.",
+    img: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=1000&auto=format&fit=crop",
+  },
+  {
+    name: "London",
+    blurb: "Royal history meets modern culture on the Thames.",
+    img: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=1000&auto=format&fit=crop",
+  },
+  {
+    name: "Lahore",
+    blurb: "Mughal grandeur, vibrant bazaars, and unmatched hospitality.",
+    img: "https://images.unsplash.com/photo-1690403687578-4a56d8734f39?q=80&w=1000&auto=format&fit=crop",
+  },
+  {
+    name: "Istanbul",
+    blurb: "Where continents meet over spice markets and minarets.",
+    img: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=80&w=1000&auto=format&fit=crop",
+  },
+  {
+    name: "Tokyo",
+    blurb: "Neon streets, quiet shrines, and precision in every detail.",
+    img: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&w=1000&auto=format&fit=crop",
+  },
+  {
+    name: "Rome",
+    blurb: "Ancient ruins beside espresso bars and golden piazzas.",
+    img: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=1000&auto=format&fit=crop",
+  },
+  {
+    name: "Barcelona",
+    blurb: "Gaudí's dreamscape by the Mediterranean shore.",
+    img: "https://images.unsplash.com/photo-1583422409516-2895a77efded?q=80&w=1000&auto=format&fit=crop",
+  },
+  {
+    name: "Sydney",
+    blurb: "Harbour sails, golden beaches, laid-back luxury.",
+    img: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1000&auto=format&fit=crop",
+  },
+];
+
+export const packages = [
+  {
+    name: "Luxury Escape",
+    img: "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=1000&auto=format&fit=crop",
+    price: "$3,200",
+    duration: "7 Days",
+    rating: 4.9,
+    features: ["5-Star Hotels", "Private Transfers", "Personal Concierge"],
+  },
+  {
+    name: "Family Tour",
+    img: "https://images.unsplash.com/photo-1562091152-04a03cb61c6f?q=80&w=1000&auto=format&fit=crop",
+    price: "$1,450",
+    duration: "5 Days",
+    rating: 4.7,
+    features: ["Kid-Friendly Stays", "Guided Activities", "Flexible Itinerary"],
+  },
+  {
+    name: "Adventure Expedition",
+    img: "https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=1000&auto=format&fit=crop",
+    price: "$1,980",
+    duration: "8 Days",
+    rating: 4.8,
+    features: ["Trekking Guide", "Camping Gear", "Small Groups"],
+  },
+  {
+    name: "Honeymoon Bliss",
+    img: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1000&auto=format&fit=crop",
+    price: "$2,650",
+    duration: "6 Days",
+    rating: 5.0,
+    features: ["Private Villa", "Candlelight Dinners", "Couples Spa"],
+  },
+  {
+    name: "Business Trip",
+    img: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1000&auto=format&fit=crop",
+    price: "$1,120",
+    duration: "3 Days",
+    rating: 4.6,
+    features: ["Airport Lounge", "Business Hotels", "Priority Transfers"],
+  },
+  {
+    name: "Budget Discovery",
+    img: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1000&auto=format&fit=crop",
+    price: "$540",
+    duration: "4 Days",
+    rating: 4.4,
+    features: ["Hostel & Budget Stays", "Group Tours", "Local Guides"],
+  },
+];
+
+>>>>>>> fe46921e5febfe746a465ceebfe5c2b8874ccec9
 export const experiences = [
   { name: "Hot Air Balloon", img: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?q=80&w=900&auto=format&fit=crop" },
   { name: "Mountain Hiking", img: "https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=900&auto=format&fit=crop" },
